@@ -1,3 +1,5 @@
-#christian
-{ width: 10px;
-    height: 10px;}
+body {
+    background-image:url(/images/starwars.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+}
