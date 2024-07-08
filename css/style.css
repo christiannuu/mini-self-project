@@ -1,5 +1,34 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image:url(/images/starwars.jpg);
+    background-image:url("../images/240wide.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
+    color: white;
+}
+
+.container {
+    display:grid;
+    grid-template-areas: 
+    'body music' 
+    'facts Songs';
+}
+
+.body {
+    grid-area: body;
+}
+
+.facts {
+    grid-area: facts;
+}
+
+.songs {
+    grid-area: Songs;
+}
+
+.music {
+    grid-area: music;
 }
